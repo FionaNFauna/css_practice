@@ -1,0 +1,149 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header, .one{
+    background-color: #1F2937;
+    font-weight: bold;
+    color: white;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+}
+
+.header a{
+    flex:1;
+    margin: auto;
+}
+.header p{
+    flex: 3;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.one .left{
+    flex:1 ;
+    align-content: center;
+    margin: 50px;
+}
+
+.one .left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.one .left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.one .right{
+    flex: 1;
+    align-content: center;
+}
+.one img{
+    width: 80%;
+    align-items: center;
+    /* margin: 50px; */
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.two{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.two .images {
+    height: 200px;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.two .images div{
+    width: 200px;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+    padding: 5px;
+}
+.two div img{
+    height: 100px;
+    width: auto;
+    border: 0px none;
+}
+
+.three{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 20px;
+    height: 250;
+    width: auto;
+    margin: auto;
+}
+
+.three .quote{
+    font-size: 36px;
+    font-style: italic;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+}
+
+.three .by{
+    text-align: right;
+    padding-right: 10%;
+}
+
+.four{
+    background-color: white;
+    color: white;
+    height: 250;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+}
+
+.four .action{
+    display: flex;
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3882F6;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.four .action .left{
+    flex: 3;
+    margin-left: 5%;
+}
+
+.four .action .left h2{
+    font-weight: bold;
+}
+
+.four .action button{
+    margin-right: 5%;
+    border-color: white;
+    padding: 3px;
+}
